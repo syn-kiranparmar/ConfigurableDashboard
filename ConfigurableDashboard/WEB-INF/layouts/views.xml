@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+								   "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+ 
+	<definition name="admin" extends="defaultTemplate">
+		<put-attribute name="body" value="/adminDashboard" />
+	</definition>
+	
+	<definition name="contentAuthor" extends="defaultTemplate">
+		<put-attribute name="body" value="/contentAuthorDashboard" />
+	</definition>
+	
+	<definition name="marketingPerson" extends="defaultTemplate">
+		<put-attribute name="body" value="/marketingPersonDashboard" />
+	</definition>
+	
+	<definition name="policyHolder" extends="defaultTemplate">
+		<put-attribute name="body" value="/policyHolderDashboard" />
+	</definition>
+  
+</tiles-definitions>
